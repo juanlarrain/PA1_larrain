@@ -1,0 +1,75 @@
+1. Diagramar una clase llamada producto, con sus atributos y operaciones.
+
+   ________________________
+  |Productos               | 
+  |________________________|               
+  |IdProduc int            |
+  |NombreProduc varchar(50)|
+  |Stock int               |
+  |IdCat int               |
+  |PrecioUnit              |
+  |________________________|
+  | ListarProd()           |
+  | AñadirProd()           |
+  | ModificarProd()        |
+  | EliminarProd()         |
+  |________________________| 
+
+
+
+
+
+
+
+2. ¿Qué es un jar y para qué sirve?
+	Es un archivo que permite ejecutar las aplicaciones y 	herramientas de java.
+
+3. ¿Qué es el patrón MVC?
+	Es una arquitectura de software qeu utiliza 3 componentes (vistas, models y controladores) separando la logica de la aplicacion de la vista de una aplicacion
+
+4. Declarar un array y asignarle valores.
+	
+        int contenedores_array[];
+	contenedores_array = new int[5];
+
+	contenedores_array [0] =1; 
+	contenedores_array [1] =2;
+	contenedores_array [2] =3;
+	contenedores_array [3] =4;
+	contenedores_array [4] =5;
+
+4.1 ¿Cómo se obtiene el primer valor del array?
+	int numero1 = contenedores_array[0];
+        System.out.print("El primer numero es: "+ numero1 );
+
+
+4.2 ¿y el último?
+	
+        int ultimo = contenedores_array[contenedores_array.length-1];
+        System.out.print("El ultimo numero es: "+ ultimo );
+
+
+4.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+
+	Se tulilisa las estructuras repetitivas como el For o while
+
+Ejem:
+	for (int x=0;x<array.length;x++)
+        System.out.print(array[x]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
